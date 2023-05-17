@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['select_5fexception_0',['select_exception',['../class_parser.html#a553bde15f6f2948fed2cb3d7677889d3',1,'Parser']]],
-  ['sendquery_1',['sendQuery',['../class_my_postgres_d_b.html#a9fe61ac74c514a4132f102e50fa57021',1,'MyPostgresDB']]],
-  ['slotclientdisconnected_2',['slotClientDisconnected',['../class_my_tcp_server.html#a3e040c49dbefd65b9a58ab662fc9f7a2',1,'MyTcpServer']]],
-  ['slotnewconnection_3',['slotNewConnection',['../class_my_tcp_server.html#a0ba7316ffe1a26c57fabde9e74b6c8dc',1,'MyTcpServer']]],
-  ['slotserverread_4',['slotServerRead',['../class_my_tcp_server.html#ab4a64d2eab985d723090963f5c8a2882',1,'MyTcpServer']]]
+  ['parse_0',['parse',['../class_parser.html#a4209a4a57208a0c0f4dcc68c03e2055f',1,'Parser']]],
+  ['parser_1',['Parser',['../class_parser.html#a12234f6cd36b61af4b50c94a179422c1',1,'Parser::Parser()'],['../class_parser.html#a6c04ec0795c0c3ceffb1a88523b074da',1,'Parser::Parser(QString)']]]
 ];

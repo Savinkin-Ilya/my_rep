@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getinstance_0',['getInstance',['../class_my_postgres_d_b.html#a9b37052f7c6e30d94a14bac7e9c0c512',1,'MyPostgresDB']]]
+  ['err_0',['err',['../class_client.html#aa90f8a8035116d70045996ec0352db26',1,'Client']]]
 ];

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['view_5fschedule_0',['view_schedule',['../class_my_postgres_d_b.html#a65e175e5abd51d4a01f6729f012422dc',1,'MyPostgresDB']]]
+  ['ui_5floginwindow_0',['Ui_LoginWindow',['../class_ui___login_window.html',1,'']]],
+  ['ui_5fmainwindow_1',['Ui_MainWindow',['../class_ui___main_window.html',1,'']]],
+  ['ui_5fstudentwindow_2',['Ui_StudentWindow',['../class_ui___student_window.html',1,'']]]
 ];

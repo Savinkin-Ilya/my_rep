@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['operator_3d_0',['operator=',['../class_my_postgres_d_b.html#acfffb4743c0087627efb6d5adc640b6f',1,'MyPostgresDB']]]
+  ['loginwindow_0',['LoginWindow',['../class_login_window.html#aa4c04d26b299de00156bbf3c32b2a082',1,'LoginWindow']]]
 ];

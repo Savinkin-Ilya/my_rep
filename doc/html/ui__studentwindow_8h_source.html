@@ -113,19 +113,19 @@ $(function() {
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    QLabel *thursday_label;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    QLabel *friday_label;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    QLabel *saturday_label;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    QWidget *widget;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    QWidget *layoutWidget1;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    QHBoxLayout *horizontalLayout_2;</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    QLabel *input_group_label;</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    QLineEdit *input_group_lineedit;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    QMenuBar *menubar;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    QStatusBar *statusbar;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> setupUi(QMainWindow *<a class="code hl_class" href="class_student_window.html">StudentWindow</a>)</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keywordtype">void</span> setupUi(QMainWindow *StudentWindow)</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    {</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="class_student_window.html">StudentWindow</a>-&gt;objectName().isEmpty())</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <a class="code hl_class" href="class_student_window.html">StudentWindow</a>-&gt;setObjectName(<span class="stringliteral">&quot;StudentWindow&quot;</span>);</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_class" href="class_student_window.html">StudentWindow</a>-&gt;resize(821, 522);</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        centralwidget = <span class="keyword">new</span> QWidget(<a class="code hl_class" href="class_student_window.html">StudentWindow</a>);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">if</span> (StudentWindow-&gt;objectName().isEmpty())</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            StudentWindow-&gt;setObjectName(<span class="stringliteral">&quot;StudentWindow&quot;</span>);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        StudentWindow-&gt;resize(821, 522);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        centralwidget = <span class="keyword">new</span> QWidget(StudentWindow);</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        centralwidget-&gt;setObjectName(<span class="stringliteral">&quot;centralwidget&quot;</span>);</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        back_from_student_window_button = <span class="keyword">new</span> QPushButton(centralwidget);</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        back_from_student_window_button-&gt;setObjectName(<span class="stringliteral">&quot;back_from_student_window_button&quot;</span>);</div>
@@ -166,39 +166,39 @@ $(function() {
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        horizontalLayout-&gt;addWidget(saturday_label);</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        widget = <span class="keyword">new</span> QWidget(centralwidget);</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        widget-&gt;setObjectName(<span class="stringliteral">&quot;widget&quot;</span>);</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        widget-&gt;setGeometry(QRect(270, 30, 255, 27));</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        horizontalLayout_2 = <span class="keyword">new</span> QHBoxLayout(widget);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        layoutWidget1 = <span class="keyword">new</span> QWidget(centralwidget);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        layoutWidget1-&gt;setObjectName(<span class="stringliteral">&quot;layoutWidget1&quot;</span>);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        layoutWidget1-&gt;setGeometry(QRect(270, 30, 255, 30));</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        horizontalLayout_2 = <span class="keyword">new</span> QHBoxLayout(layoutWidget1);</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        horizontalLayout_2-&gt;setObjectName(<span class="stringliteral">&quot;horizontalLayout_2&quot;</span>);</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        horizontalLayout_2-&gt;setContentsMargins(0, 0, 0, 0);</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        input_group_label = <span class="keyword">new</span> QLabel(widget);</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        input_group_label = <span class="keyword">new</span> QLabel(layoutWidget1);</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        input_group_label-&gt;setObjectName(<span class="stringliteral">&quot;input_group_label&quot;</span>);</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        horizontalLayout_2-&gt;addWidget(input_group_label);</div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        input_group_lineedit = <span class="keyword">new</span> QLineEdit(widget);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        input_group_lineedit = <span class="keyword">new</span> QLineEdit(layoutWidget1);</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        input_group_lineedit-&gt;setObjectName(<span class="stringliteral">&quot;input_group_lineedit&quot;</span>);</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        horizontalLayout_2-&gt;addWidget(input_group_lineedit);</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        <a class="code hl_class" href="class_student_window.html">StudentWindow</a>-&gt;setCentralWidget(centralwidget);</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        menubar = <span class="keyword">new</span> QMenuBar(<a class="code hl_class" href="class_student_window.html">StudentWindow</a>);</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        StudentWindow-&gt;setCentralWidget(centralwidget);</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        menubar = <span class="keyword">new</span> QMenuBar(StudentWindow);</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        menubar-&gt;setObjectName(<span class="stringliteral">&quot;menubar&quot;</span>);</div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        menubar-&gt;setGeometry(QRect(0, 0, 821, 23));</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        <a class="code hl_class" href="class_student_window.html">StudentWindow</a>-&gt;setMenuBar(menubar);</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        statusbar = <span class="keyword">new</span> QStatusBar(<a class="code hl_class" href="class_student_window.html">StudentWindow</a>);</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        menubar-&gt;setGeometry(QRect(0, 0, 821, 25));</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        StudentWindow-&gt;setMenuBar(menubar);</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        statusbar = <span class="keyword">new</span> QStatusBar(StudentWindow);</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        statusbar-&gt;setObjectName(<span class="stringliteral">&quot;statusbar&quot;</span>);</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        <a class="code hl_class" href="class_student_window.html">StudentWindow</a>-&gt;setStatusBar(statusbar);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        StudentWindow-&gt;setStatusBar(statusbar);</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        retranslateUi(<a class="code hl_class" href="class_student_window.html">StudentWindow</a>);</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        retranslateUi(StudentWindow);</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        QMetaObject::connectSlotsByName(<a class="code hl_class" href="class_student_window.html">StudentWindow</a>);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        QMetaObject::connectSlotsByName(StudentWindow);</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    } <span class="comment">// setupUi</span></div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="keywordtype">void</span> retranslateUi(QMainWindow *<a class="code hl_class" href="class_student_window.html">StudentWindow</a>)</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="keywordtype">void</span> retranslateUi(QMainWindow *StudentWindow)</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    {</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>        <a class="code hl_class" href="class_student_window.html">StudentWindow</a>-&gt;setWindowTitle(QCoreApplication::translate(<span class="stringliteral">&quot;StudentWindow&quot;</span>, <span class="stringliteral">&quot;\320\240\320\260\321\201\320\277\320\270\321\201\320\260\320\275\320\270\320\265 \321\201\321\202\321\203\320\264\320\265\320\275\321\202\320\260&quot;</span>, <span class="keyword">nullptr</span>));</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>        StudentWindow-&gt;setWindowTitle(QCoreApplication::translate(<span class="stringliteral">&quot;StudentWindow&quot;</span>, <span class="stringliteral">&quot;\320\240\320\260\321\201\320\277\320\270\321\201\320\260\320\275\320\270\320\265 \321\201\321\202\321\203\320\264\320\265\320\275\321\202\320\260&quot;</span>, <span class="keyword">nullptr</span>));</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        back_from_student_window_button-&gt;setText(QCoreApplication::translate(<span class="stringliteral">&quot;StudentWindow&quot;</span>, <span class="stringliteral">&quot;\320\235\320\260\320\267\320\260\320\264&quot;</span>, <span class="keyword">nullptr</span>));</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        monday_label-&gt;setText(QCoreApplication::translate(<span class="stringliteral">&quot;StudentWindow&quot;</span>, <span class="stringliteral">&quot;\320\237\320\276\320\275\320\265\320\264\320\265\320\273\321\214\320\275\320\270\320\272&quot;</span>, <span class="keyword">nullptr</span>));</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>        tuesday_label-&gt;setText(QCoreApplication::translate(<span class="stringliteral">&quot;StudentWindow&quot;</span>, <span class="stringliteral">&quot;\320\222\321\202\320\276\321\200\320\275\320\270\320\272&quot;</span>, <span class="keyword">nullptr</span>));</div>
@@ -218,7 +218,6 @@ $(function() {
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>QT_END_NAMESPACE</div>
 <div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
 <div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span><span class="preprocessor">#endif </span><span class="comment">// UI_STUDENTWINDOW_H</span></div>
-<div class="ttc" id="aclass_student_window_html"><div class="ttname"><a href="class_student_window.html">StudentWindow</a></div><div class="ttdef"><b>Definition:</b> studentwindow.h:11</div></div>
 <div class="ttc" id="aclass_ui_1_1_student_window_html"><div class="ttname"><a href="class_ui_1_1_student_window.html">Ui::StudentWindow</a></div><div class="ttdef"><b>Definition:</b> ui_studentwindow.h:137</div></div>
 <div class="ttc" id="aclass_ui___student_window_html"><div class="ttname"><a href="class_ui___student_window.html">Ui_StudentWindow</a></div><div class="ttdef"><b>Definition:</b> ui_studentwindow.h:26</div></div>
 </div><!-- fragment --></div><!-- contents -->

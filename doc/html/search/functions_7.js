@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['reg_0',['reg',['../class_parser.html#afba12f5cd40b565f1416f48464b8127a',1,'Parser']]],
-  ['reschedule_1',['reschedule',['../class_parser.html#ae2772001188b3ffcc9f0e4db13923a7a',1,'Parser']]]
+  ['operator_3d_0',['operator=',['../class_client.html#a5c0f25e0297ee89169f92a5ef3388340',1,'Client::operator=()'],['../class_my_postgres_d_b.html#acfffb4743c0087627efb6d5adc640b6f',1,'MyPostgresDB::operator=()']]]
 ];
